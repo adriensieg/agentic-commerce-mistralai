@@ -4,7 +4,7 @@
 
 You can try the Commerce Protocol out here - https://mistralai.devailab.work/mcp. [How to get access?]()
 
-[](https://youtu.be/2RNwvZ_C-78)
+[![Demo of the tool](static/backchannel.png)](https://youtu.be/2RNwvZ_C-78)
 
 We implemented a secure, **OAuth-protected MCP server** that enables **Mistral AI Le Chat** to **discover products**, **execute commerce tools**, and **complete end-to-end Agentic Commerce transactions** through a **standardized** and **trusted protocol**.
 
@@ -107,6 +107,8 @@ The output:
                 }
 }
 ```
+
+```shell
 Invoke-RestMethod `
     -Uri "https://mistralai.devailab.work/mcp" `
     -Method POST `
@@ -117,3 +119,5 @@ Invoke-RestMethod `
     } `
     -Body '{"jsonrpc":"2.0","id":1,"method":"tools/list","params":{}}'
 ```
+
+![Capabilities of the Ordering Server](static/output-mcp-ordering-functions.png)
