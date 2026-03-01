@@ -6,9 +6,9 @@ Just tell Le Chat what you want — and it orders, negotiates, and pays for you.
 
 You can try the Commerce Protocol out here - https://mistralai.devailab.work/mcp. 
 
-![Capabilities of the Ordering Server](static/output-mcp-ordering-functions.png)
-
 We implemented a secure, **OAuth-protected MCP server** that enables **Mistral AI Le Chat** to **discover products**, **execute commerce tools**, and **complete end-to-end Agentic Commerce transactions** through a **standardized** and **trusted protocol**.
+
+[![Demo of the tool](static/backchannel.png)](https://youtu.be/2RNwvZ_C-78)
 
 ### Commerce Protocol
 We implement an AI agent that enables users to discover products, negotiate, order, and pay within a standardized and seamless commerce flow.
@@ -25,7 +25,6 @@ Secure **product discovery**, **contextual ordering**, **real-time negotiation**
 
 ### Second - you need to create an Auth0 account
 
-[![Demo of the tool](static/backchannel.png)](https://youtu.be/2RNwvZ_C-78)
 
 # OAuth 2.1 - Secure Server Exposure
 
@@ -125,3 +124,5 @@ Invoke-RestMethod `
     } `
     -Body '{"jsonrpc":"2.0","id":1,"method":"tools/list","params":{}}'
 ```
+
+![Capabilities of the Ordering Server](static/output-mcp-ordering-functions.png)
