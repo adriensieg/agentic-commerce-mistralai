@@ -19,7 +19,7 @@ Le Chat connects to our OAuth-protected MCP server using **discovery Dynamic Cli
 ### Capabilities
 Secure **product discovery**, **contextual ordering**, **real-time negotiation**, **payment initiation** via CIBA, and persistent user context — enabling end-to-end trusted Agentic Commerce.
 
-### First - you need to make it available - here 
+### First - you need to make it available - here https://chat.mistral.ai/connections
 
 <img src="static/makeitavailable.png" width="70%" height="70%" alt="Make it available"/>
 
