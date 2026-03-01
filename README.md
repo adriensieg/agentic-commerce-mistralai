@@ -21,7 +21,7 @@ Secure **product discovery**, **contextual ordering**, **real-time negotiation**
 
 ### First - you need to make it available - here 
 
-<img src="static/makeitavailable.png" width="50" height="50" alt="Make it available"/>
+<img src="static/makeitavailable.png" width="70%" height="70%" alt="Make it available"/>
 
 ### Second - you need to create an Auth0 account
 
