@@ -4,7 +4,7 @@
 
 You can try the Commerce Protocol out here - https://mistralai.devailab.work/mcp. [How to get access?]()
 
-[![Demo of the tool](static/backchannel.png)](https://youtu.be/2RNwvZ_C-78)
+![Make it available](static/makeitavailable.png)
 
 We implemented a secure, **OAuth-protected MCP server** that enables **Mistral AI Le Chat** to **discover products**, **execute commerce tools**, and **complete end-to-end Agentic Commerce transactions** through a **standardized** and **trusted protocol**.
 
@@ -20,6 +20,8 @@ Secure **product discovery**, **contextual ordering**, **real-time negotiation**
 Just tell Le Chat what you want — and it orders, negotiates, and pays for you.
 
 We implement a secure, OAuth-protected MCP server that enables Mistral AI Le Chat to discover products, execute commerce tools, and complete end-to-end Agentic Commerce transactions through a standardized and trusted protocol.
+
+[![Demo of the tool](static/backchannel.png)](https://youtu.be/2RNwvZ_C-78)
 
 # OAuth 2.1 - Secure Server Exposure
 
